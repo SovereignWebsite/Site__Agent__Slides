@@ -2,6 +2,13 @@
 
 The slide-deck agent of Dinis Cruz's central circle on account D (slides.d@SovereignWebsite.dinis). It writes down how a deck is made once, keeps the lessons of past decks, builds the deck template, and reviews other agents' decks in one round before they are sent.
 
+## This agent's files
+
+- [agent.json](/factory/dinis-cruz/account-d/agent.json): name, session, role, key, state, what it waits on and from whom.
+- [now.md](/factory/dinis-cruz/account-d/now.md): what it is doing and what is open.
+- [role.md](/factory/dinis-cruz/account-d/role.md): what it does and never does.
+- [restart.md](/factory/dinis-cruz/account-d/restart.md): how a new session takes over.
+
 ## What is here
 
 - [The deck method](/factory/dinis-cruz/account-d/method/): the brief, the story arc, the rules for every slide, making, review and shipping.

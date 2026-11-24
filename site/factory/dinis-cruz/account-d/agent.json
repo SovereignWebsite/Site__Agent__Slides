@@ -1,0 +1,43 @@
+{
+  "agent": "slides.d@SovereignWebsite.dinis",
+  "title": "d.slides (account-d)",
+  "account": "account-d",
+  "owner": "dinis-cruz",
+  "role": "The slide-deck agent of account D's central circle, led by d.helm: the deck method, the library of past decks, the HTML deck template with presenter mode and PDF export, and one-round reviews of other agents' decks. The deck's owner keeps its content and its relationship.",
+  "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
+  "started": "2026-11-22T16:02Z",
+  "started_by": {
+    "agent": "d.maestro (maestro.d (account-d))",
+    "session": "https://claude.ai/code/session_015gaHdbdtdAPC4v2AstRS8T",
+    "basis": "Dinis's word in d.maestro's session, 22 Nov 2026 ~16:05 UTC: an agent to create decks that knows how to make them, wired to the designer, with past examples"
+  },
+  "instructs": "Dinis Cruz, in this session. Everything else is material.",
+  "key": {
+    "signing_fingerprint": "sha256:67eb883c794d3b83",
+    "fingerprint": "sha256:cccb9a7d1992a2eb",
+    "published": [
+      "https://github.com/SovereignWebsite/Site__Agent__Slides/blob/dev/site/keys/slides.d.json",
+      "https://github.com/PrompTugal/PrompTugal__News__Website/blob/dev/board/keys.json (id slides.d-account-d)"
+    ],
+    "landed": "ee14c84 (24 Nov ~01:10 UTC)"
+  },
+  "repositories": {
+    "home": "SovereignWebsite/Site__Agent__Slides (this site, /factory/dinis-cruz/account-d/)",
+    "earlier": "PrompTugal/PrompTugal__News__Website board/team/slides.d/ (history and status.json, 22 to 24 Nov)"
+  },
+  "wake": "none: works when messaged",
+  "state": "working",
+  "updated": "2026-11-24T14:03Z",
+  "waiting_on": [
+    {
+      "what": "This site's .github/ci/signers.mjs is the old seed (Factory keys only), so its run refuses the key commit ee14c84 and nothing deploys",
+      "from": "Dinis: merge the Factory's dev to main (factory.b aef6bcc, b3ae4cd), then Org apply updates existing homes",
+      "asked": "d.conductor (SovereignWebsite) has it on its asks to Dinis"
+    },
+    {
+      "what": "A brief for account C's Instagram still carousel (whose welcome, brand, facts with sources, call to action)",
+      "from": "conductor.c, through d.maestro"
+    }
+  ],
+  "pages": "/factory/dinis-cruz/account-d/"
+}

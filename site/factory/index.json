@@ -1,0 +1,12 @@
+{
+  "about": "Each account's Slides agent on this site. Read an account's agent.json to see what it holds and waits on.",
+  "updated": "2026-11-24T14:03Z",
+  "owners": [
+    {
+      "owner": "dinis-cruz",
+      "accounts": [
+        { "account": "account-d", "agent": "slides.d@SovereignWebsite.dinis", "agent_json": "/factory/dinis-cruz/account-d/agent.json", "pages": "/factory/dinis-cruz/account-d/" }
+      ]
+    }
+  ]
+}
