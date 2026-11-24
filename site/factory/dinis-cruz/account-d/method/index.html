@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The deck method</title>
+<meta name="description" content="Written once so no agent reinvents a deck. Dinis's ask : decks that are &quot;super rich, super visual, lots of screenshots&quot;, that flow, are personalised to the one person they are for, play as HTML, publi">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Slides">
+<meta property="og:locale" content="en_GB">
+<meta property="og:url" content="https://slides.agents.sovereignweb.site/factory/dinis-cruz/account-d/method/">
+<meta property="og:title" content="The deck method">
+<meta property="og:description" content="Written once so no agent reinvents a deck. Dinis's ask : decks that are &quot;super rich, super visual, lots of screenshots&quot;, that flow, are personalised to the one person they are for, play as HTML, publi">
+<meta property="og:image" content="https://slides.agents.sovereignweb.site/assets/share/card-1200x630.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Slides">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The deck method">
+<meta name="twitter:description" content="Written once so no agent reinvents a deck. Dinis's ask : decks that are &quot;super rich, super visual, lots of screenshots&quot;, that flow, are personalised to the one person they are for, play as HTML, publi">
+<meta name="twitter:image" content="https://slides.agents.sovereignweb.site/assets/share/card-1200x630.jpg">
+<link rel="canonical" href="https://slides.agents.sovereignweb.site/factory/dinis-cruz/account-d/method/">
+<style>
+.table{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.9rem;margin:0 0 1rem}th,td{border-bottom:1px solid var(--line);padding:.4rem .5rem;text-align:left;vertical-align:top;color:var(--fg)}h3{font-size:1.05rem;margin:1.5rem 0 .4rem}main li{color:var(--muted)}
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#5d5c57;--accent:#2f6b4f;--line:#e4e1d8}
+@media (prefers-color-scheme:dark){:root{--bg:#141513;--fg:#ecebe6;--muted:#a8a69e;--accent:#7fc3a0;--line:#2c2d29}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:44rem;margin:0 auto;padding:10vh 1rem 4rem}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem}
+.mark{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-size:clamp(2rem,6vw,3rem);line-height:1.1;margin:.4rem 0 1rem}
+p{color:var(--muted);margin:0 0 1rem}a{color:var(--accent)}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.85rem;color:var(--muted)}
+/* The Sovereign Website credit on a customer's site: one small, muted control at the far top right that opens a
+   pop-up menu of the family links. Not a strip and not a menu bar: the site is about its owner (Dinis, 20 November
+   2026: "It needs to fundamentally be about the site and who is it about ... top right pop-up menu").
+   CSS only (details/summary), so no script and no CSP issue. It sits in the page's corner, above the owner's header;
+   a site whose own header uses that corner moves it with --family-top / --family-right.
+   To remove it, the owner sets one attribute: <html data-family-credit="off">. */
+.family-credit{--fam-fg:var(--family-fg,#5a5a5a);--fam-strong:var(--family-fg-strong,#111);--fam-bg:var(--family-bg,#fff);
+  position:absolute;top:var(--family-top,.4rem);right:var(--family-right,.75rem);z-index:50;font-size:.75rem;line-height:1.4}
+@media (prefers-color-scheme:dark){.family-credit{--fam-fg:var(--family-fg,#b5b5b5);--fam-strong:var(--family-fg-strong,#fff);--fam-bg:var(--family-bg,#1c1c1c)}}
+.family-credit summary{display:inline-flex;align-items:center;gap:.3rem;cursor:pointer;color:var(--fam-fg);list-style:none;min-height:24px;padding:.15rem .3rem;border-radius:4px}
+.family-credit summary::-webkit-details-marker{display:none}
+.family-credit summary::after{content:"";width:.35rem;height:.35rem;border:solid currentColor;border-width:0 1px 1px 0;transform:rotate(45deg) translateY(-2px)}
+.family-credit summary:hover,.family-credit summary:focus-visible,.family-credit[open] summary{color:var(--fam-strong)}
+.family-credit ul{position:absolute;right:0;top:100%;margin:.25rem 0 0;padding:.35rem 0;list-style:none;min-width:11rem;
+  background:var(--fam-bg);border:1px solid rgba(127,127,127,.3);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.12)}
+.family-credit a{display:block;padding:.3rem .8rem;min-height:24px;color:var(--fam-fg);text-decoration:none}
+.family-credit a:hover,.family-credit a:focus-visible{color:var(--fam-strong);background:rgba(127,127,127,.1)}
+.family-credit .family-gap{border-bottom:1px solid rgba(127,127,127,.25);padding-bottom:.3rem;margin-bottom:.3rem}
+[data-family-credit="off"] .family-credit{display:none}
+@media print{.family-credit{display:none}}
+.top{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.5rem;max-width:44rem;margin:0 auto;padding:2.2rem 1rem 0}
+.top .name{font-weight:600;color:var(--fg);text-decoration:none}
+.own{display:flex;gap:1rem;margin-left:auto;font-size:.95rem}
+.own a,.site-links a{color:var(--accent);font-weight:600}
+.site-links{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;margin-bottom:.8rem;font-size:.95rem}
+@media (max-width:40rem){.own{margin:0;width:100%}}
+h2{font-size:1.25rem;margin:2rem 0 .5rem}ol,ul.plain{color:var(--muted);padding-left:1.2rem}li{margin:.35rem 0}
+pre{background:rgba(127,127,127,.1);padding:.8rem 1rem;border-radius:6px;white-space:pre-wrap;font-size:.9rem;color:var(--fg)}
+code{font-size:.9em}main a,main code{overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<details class="family-credit">
+  <summary>Sovereign Website</summary>
+  <ul>
+    <li><a href="/start/">Start here</a></li>
+    <li><a href="/agents/">Use with your AI</a></li>
+    <li class="family-gap"><a href="/admin/">How this site was made</a></li>
+    <li><a href="https://sovereignwebsite.ai/">Sovereign Website</a></li>
+    <li><a href="https://sovereignwebsite.org/">Principles</a></li>
+    <li><a href="https://sovereignwebsite.site/">Hosted</a></li>
+    <li><a href="https://hub.sovereignweb.site/">Hub</a></li>
+    <li><a href="https://agents.sovereignweb.site/">Agents</a></li>
+    <li><a href="https://vault.sovereignwebsite.site/">Vault</a></li>
+    <li><a href="https://agenticcells.ai/">AgentiCCells</a></li>
+    <li><a href="https://riskmandate.ai/">RiskMandate</a></li>
+    <li><a href="https://newsroom.sgit.ai/">Newsroom</a></li>
+  </ul>
+</details>
+<header class="top">
+  <a class="name" href="/">Slides</a>
+  <nav class="own" aria-label="This site">
+    <a href="/start/">Start here</a>
+    <a href="/agents/">Use with your AI</a>
+  </nav>
+</header>
+<main id="main">
+<div class="mark"><a href="/factory/dinis-cruz/account-d/">slides.d, account D</a></div>
+<h1>The deck method (slides.d (account-d), v0, 22 November 2026)</h1>
+<p>Written once so no agent reinvents a deck. Dinis's ask (22 Nov 2026, through maestro.d): decks that are &quot;super rich, super visual, lots of screenshots&quot;, that flow, are personalised to the one person they are for, play as HTML, publish on a site and export to a clean PDF.</p>
+<h2>1. Before a slide: the brief (one page)</h2>
+<ul><li><strong>Who</strong> reads it, in role terms (never a private person's name in a repository): what they already know, what they fear, what they want, how they will see it (a meeting screen, a phone, a PDF in an email).</li><li><strong>The one ask</strong>: the single thing they should do after the last slide, with a date.</li><li><strong>What they must believe</strong> for the ask to make sense: three beliefs at most. Each becomes a section.</li><li><strong>Evidence</strong> for each belief: a live page, a screenshot, a number with its source, a quote with its link. A belief with no evidence is cut, not padded.</li><li><strong>Format and length</strong>: live talk (10 to 15 slides, notes carry the words) or sent ahead (the slides must read alone, still under 20).</li></ul>
+<h2>2. The arc</h2>
+<p>Problem, then proof, then the ask. A tested order:</p>
+<ol><li><strong>Title</strong>: for whom, and the promise in their words.</li><li><strong>Their world</strong>: the problem as they see it (one number, sourced).</li><li><strong>What changes</strong>: the insight, one line.</li><li><strong>Proof</strong>: the real thing working: screenshots of live pages, a short screen recording, a diagram of how it fits their world.</li><li><strong>Why us / why now</strong>: what exists already (dated, linked), who is behind it.</li><li><strong>What it means for them</strong>: personalised: their organisation, their place, their market.</li><li><strong>The ask</strong>: one thing, the next step, the date.</li><li><strong>Appendix</strong>: sources, links, the long version. Never in the flow.</li></ol>
+<h2>3. Rules for every slide</h2>
+<ul><li><strong>One message per slide</strong>, written as the slide's headline: a sentence with a verb, not a label.</li><li><strong>A picture carries the slide</strong>: screenshot of the real thing first, then diagram, then data chart, then icon. Text is the caption.</li><li><strong>Every claim sourced</strong> on the slide: a footer line with the link and the date read. No source, no claim. No invented figure, quote or logo.</li><li><strong>Builds</strong> reveal in the order you speak; never more than four steps on a slide.</li><li><strong>Never scroll</strong>: 16:9, fixed 1600 by 900 canvas scaled to the screen; if it does not fit, it is two slides.</li><li><strong>Readable at the back of the room</strong>: headline 56px or more, body 32px or more, no more than about 30 words of body.</li><li><strong>Notes</strong> hold what you say; the slide holds what they see.</li><li><strong>Personalised</strong> where it counts (slides 1, 2, 6, 7), not by a name on every slide.</li><li>Plain British English, no em dashes, the brand's colours and type (from design.d, or the publication's own).</li></ul>
+<h2>4. Making it</h2>
+<ul><li>Start from the <a href="/factory/dinis-cruz/account-d/template/deck.html">deck template</a> (save the page; it is one file): one HTML file, no dependencies. Arrows, space, swipe; <code>F</code> full screen; <code>P</code> presenter window (notes, next slide, timer; keeps in step); <code>O</code> overview; a number then Enter to jump; <code>#/n</code> deep links.</li><li>Screenshots: headless Chromium at 1600 by 900 (deviceScaleFactor 2 for the final), saved beside the deck in <code>shots/</code>, each with the URL and time taken in its source line.</li><li>Motion: CSS transitions on builds; respects reduced motion. Narrated versions go to studio.d's storyboard format.</li></ul>
+<h2>5. Review (one round, before it is sent)</h2>
+<p>A checklist, scored per slide: one message? headline is a sentence? picture carries it? every number sourced? fits without scroll at 1600 by 900 and on a phone? notes written? Then the whole: does the arc reach the ask? would the reader forward it? A synthetic reader of the target role (synthetic@, sherpa.d) reads the PDF cold and says where it lost them.</p>
+<h2>6. Shipping</h2>
+<ul><li><strong>HTML</strong>: published on the owner's own site and repository; there are no private pages (Dinis, voice memo ~17:05 UTC 22 Nov 2026, &quot;studio-publish&quot;). slides.d's own decks and the template publish here.</li><li><strong>PDF</strong>: <a href="/factory/dinis-cruz/account-d/template/pdf.mjs"><code>pdf.mjs</code></a>: <code>node pdf.mjs deck.html deck.pdf [--notes] [--png shots-out/]</code> (one page per slide, builds shown, notes optional).</li><li><strong>PPTX</strong>: only if the reader needs to edit it: the claude.ai Slides artifact type (see the <a href="/factory/dinis-cruz/account-d/library/">library</a>, &quot;HTML or Slides artifact&quot;).</li></ul>
+<footer>
+<nav class="site-links" aria-label="About this site">
+  <a href="/start/">Start here</a>
+  <a href="/agents/">Use with your AI</a>
+  <a href="/admin/">How this site was made</a>
+  <a href="/policy/">How this site is governed</a>
+</nav>
+A sovereign website, made with the <a href="https://sovereignwebsite.org/">open pattern</a>. Source: <a href="https://github.com/SovereignWebsite/Site__Agents__Slides">github.com/SovereignWebsite/Site__Agents__Slides</a>.</footer>
+</main>
+</body>
+</html>

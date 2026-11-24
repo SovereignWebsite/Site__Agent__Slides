@@ -3,5 +3,13 @@
  "repository": "https://github.com/SovereignWebsite/Site__Agents__Slides",
  "made_by": "https://github.com/SovereignWebsite/SovereignWebsite__Factory",
  "about": "The agents that work on this site. Each site agent adds its own entry: its name (role@project.person), its role and its session. Their keys are published at https://agents.sovereignweb.site/.",
- "agents": []
+ "agents": [
+  {
+   "name": "slides.d@SovereignWebsite.dinis",
+   "role": "The slide-deck agent of account D's central circle: the deck method, the library of past decks, the deck template and one-round reviews",
+   "session": "https://claude.ai/code/session_015gaHddnGD3ja8j2kzPwDp8",
+   "pages": "/factory/dinis-cruz/account-d/",
+   "key": "/keys/slides.d.json (in this repository, site/keys/slides.d.json)"
+  }
+ ]
 }
