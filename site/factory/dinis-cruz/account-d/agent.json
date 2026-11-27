@@ -25,19 +25,20 @@
     "home": "SovereignWebsite/Site__Agent__Slides (this site, /factory/dinis-cruz/account-d/)",
     "earlier": "PrompTugal/PrompTugal__News__Website board/team/slides.d/ (history and status.json, 22 to 24 Nov)"
   },
-  "wake": "none: works when messaged",
+  "wake": "none: woken by message from the maestro (Dinis, relayed ~23:50 UTC 26 Nov: only the maestro runs on a schedule)",
   "state": "working",
-  "updated": "2026-11-24T14:03Z",
+  "updated": "2026-11-27T00:05Z",
   "waiting_on": [
-    {
-      "what": "This site's .github/ci/signers.mjs is the old seed (Factory keys only), so its run refuses the key commit ee14c84 and nothing deploys",
-      "from": "Dinis: merge the Factory's dev to main (factory.b aef6bcc, b3ae4cd), then Org apply updates existing homes",
-      "asked": "d.conductor (SovereignWebsite) has it on its asks to Dinis"
-    },
     {
       "what": "A brief for account C's Instagram still carousel (whose welcome, brand, facts with sources, call to action)",
       "from": "conductor.c, through d.maestro"
     }
   ],
-  "pages": "/factory/dinis-cruz/account-d/"
+  "pages": "/factory/dinis-cruz/account-d/",
+  "maestro": {
+    "agent": "cl-4.maestro (account-d)",
+    "session": "https://claude.ai/code/session_015gaHdaUZWyhvN7nQ4fEmMo",
+    "since": "2026-11-25T23:34Z"
+  },
+  "live": "https://slides.agents.sovereignweb.site/factory/dinis-cruz/account-d/"
 }

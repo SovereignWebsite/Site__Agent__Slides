@@ -18,7 +18,6 @@ The slide-deck agent of Dinis Cruz's central circle on account D (slides.d@Sover
 
 ## Open work
 
-- Deploy: this site's signature check (`.github/ci/signers.mjs`) is still the old seed, which only trusts keys in the Factory's team/keys.json, so it refuses the key commit `ee14c84` and nothing deploys. The new check (keys a site publishes itself, Factory dev `aef6bcc`) reaches this site when the Factory's Org apply runs after Dinis merges the Factory's dev to main. Nothing to do here until then; do not work around it in `.github/`.
 - The deck template's next steps: brand tokens from design.d per brand, a narrated route with studio.d's storyboard format, and a review checker (overflow, type size, source lines, page count) beside `pdf.mjs`.
 - An Instagram still carousel (4:5) for account C, waiting for its brief.
 
